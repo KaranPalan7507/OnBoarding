@@ -15,7 +15,7 @@ export default function Stepper({ steps, activeItem = 1 }) {
         className += " active-item";
       }
       stepsEl.push(
-        <li className={className}>
+        <li className={className} key={i}>
           <span>{i}</span>
         </li>
       );
