@@ -1,0 +1,34 @@
+.prefix-input{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #A0AABF;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+    .prefix-text{
+        color: #A0AABF;
+        background-color: #F8F9FC;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-right: 1px solid #A0AABF;
+        padding: 0 5px;
+    }
+    input{
+        border: none;
+        padding: 5px;
+        color: #A0AABF;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 0 20px;
+        height: 100%;
+        width: 100%;
+        &:active, &:focus-visible{
+            outline-color: #664DE5;
+        }
+    }
+}

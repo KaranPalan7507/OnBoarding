@@ -1,0 +1,28 @@
+.selections{
+    display: flex;
+}
+.selection-item{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 24px;
+    text-align: left;
+    &.selected{
+        border-color: #664DE5;
+        .icon{
+            color: #664DE5;
+        }
+    }
+    .selection-item-heading{
+        color: #4A5262;
+        font-weight: bold;
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+    .selection-item-subheading{
+        color: #B3BAC6
+    }
+}
